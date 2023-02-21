@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+body,
+html {
+    margin: 0;
+    font-family: Barlow Condensed;
+    height: 100%;
+    padding: 0;
+    overflow-x:hidden;
+}
+
+.container {
+    min-height: 100vh;
+    padding: 10px;
+    background: #c7c2c2;
+}
+
+.view-btn {
+  display: block;
+  height: 30px;
+  width: 32px;
+  margin-left: auto;
+  padding: 0;
+  border: none;
+  background-color: transparent;  
+  font-size: 32px; 
+}
+
+.view-btn:hover, .card-btn:hover, .item-btn:hover {
+  cursor: pointer;
+}
+
+.card {
+  position: relative;
+  width: 200px;
+  margin: 0 10px 10px 0;
+  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+  }
+
+.card-block {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;  
+  width: 80%;
+  bottom: 10px;
+  margin-left: 10%;
+  color: red;
+}
+.cards-container {
+  display: flex;
+  padding-top: 10px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  
+}
+
+.card-img {
+  display: block;
+  width: 100%;  
+}
+
+.card-description {
+  position: absolute;
+  width: 100%;
+  top: 10px;
+}
+
+.card-name {
+  font-weight: 600;
+  text-align: center;  
+}
+
+.card-color {
+  color: #a0a0a0;
+  text-align: center;
+}
+
+.card-btn {
+  border: 1px solid red;
+  border-radius: 10px;
+  background-color: transparent;
+  font-weight: 600;
+  color: red;
+}
+
+.list-container {
+  padding-top: 10px;  
+}
+
+.card-item {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  padding-left: 20px;
+}
+
+.item-img {
+  display: block;
+  width: 100px;  
+}
+
+.item-name {
+  display: flex;
+  margin: auto;
+  font-weight: 600;
+  text-align: center;
+}
+
+.item-color {
+  display: flex;
+  margin: auto;
+  color: #a0a0a0;
+  text-align: center;
+}
+
+.item-price {
+  display: flex;
+  margin: auto;
+  color: red;
+}
+
+.item-btn {
+  display: flex;
+  margin: auto;
+  border: 1px solid red;
+  border-radius: 10px;
+  background-color: transparent;
+  font-weight: 600;
+  color: red; 
+}
